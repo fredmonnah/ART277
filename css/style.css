@@ -2329,127 +2329,29 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 40px;
 }
 
-.feature .feature-content h2, .feature .feature-content p {
-  margin-bottom: 25px;
-}
 
 @media (max-width: 767px) {
-  .feature .feature-content h2, .feature .feature-content p {
+ e .testimonial {
     text-align: center;
   }
 }
 
-@media (max-width: 767px) {
-  .feature .testimonial {
-    text-align: center;
-  }
-}
-
-.feature .testimonial p {
+ .testimonial p {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
   color: #242424;
 }
 
-.feature .testimonial ul.meta li {
+ .testimonial ul.meta li {
   font-size: 12px;
   margin-right: 10px;
 }
 
-.feature .testimonial ul.meta li img {
+ .testimonial ul.meta li img {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-}
-
-@media (max-width: 575px) {
-  .app-features .app-feature {
-    margin-bottom: 30px;
-  }
-}
-
-.app-features .app-explore {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center !important;
-          justify-content: center !important;
-  margin-bottom: 40px;
-}
-
-.banner-full .image {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-}
-
-.banner-full .image img {
-  height: 625px;
-}
-
-@media (max-width: 767px) {
-  .banner-full .image {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .banner-full .block {
-    text-align: center;
-  }
-}
-
-.banner-full .block .logo {
-  margin-bottom: 40px;
-}
-
-.banner-full .block h1 {
-  margin-bottom: 40px;
-}
-
-.banner-full .block p {
-  font-size: 20px;
-  margin-bottom: 50px;
-}
-
-.banner-full .block .app {
-  margin-bottom: 20px;
-}
-
-.video-promo {
-  padding: 150px 0;
-}
-
-.video-promo .content-block {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.video-promo .content-block h2 {
-  font-size: 30px;
-  color: #fff;
-}
-
-.video-promo .content-block p {
-  margin-bottom: 30px;
-}
-
-.video-promo .content-block a i.video {
-  height: 125px;
-  width: 125px;
-  background: #ff6600;
-  display: inline-block;
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  line-height: 125px;
-  border-radius: 100%;
-}
-
-.video-promo .content-block a:focus {
-  outline: 0;
 }
 
 .testimonial .testimonial-slider .item {
