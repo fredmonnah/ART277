@@ -456,23 +456,6 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
 }
 
-.btn-main-sm {
-  padding: 15px 35px;
-  border-radius: 3px;
-  background: #ff6600;
-  color: #fff;
-  outline: none;
-  font-size: 14px;
-}
-
-.btn-main-sm:hover {
-  color: #fff;
-}
-
-.btn-main-sm:focus {
-  color: #fff;
-  box-shadow: none;
-}
 
 .btn-white-md {
   background: #fff;
@@ -484,13 +467,6 @@ select.form-control:not([size]):not([multiple]) {
 .btn-white-md:hover {
   background: #ff6600;
   color: #fff;
-}
-
-.btn-rounded-icon {
-  border-radius: 100px;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 13px 50px;
 }
 
 .main-nav {
@@ -558,84 +534,6 @@ select.form-control:not([size]):not([multiple]) {
   color: #ff6600;
 }
 
-.main-nav .dropdown-slide {
-  position: static;
-}
-
-.main-nav .dropdown-slide .open > a, .main-nav .dropdown-slide .open > a:focus, .main-nav .dropdown-slide .open > a:hover {
-  background: transparent;
-}
-
-.main-nav .dropdown-slide.full-width .dropdown-menu {
-  left: 0 !important;
-  right: 0 !important;
-}
-
-.main-nav .dropdown-slide:hover .dropdown-menu {
-  border-top: 3px solid #ff6600;
-  display: none;
-  opacity: 1;
-  display: block;
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
-  opacity: 1;
-  visibility: visible;
-  color: #777;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
-.main-nav .dropdown-slide .dropdown-menu {
-  min-width: 220px;
-  margin-top: 0;
-  border-radius: 0;
-  opacity: 1;
-  visibility: visible;
-  position: absolute;
-  padding: 5px 15px;
-  border: 1px solid #ebebeb;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  -webkit-transition: .3s all;
-  transition: .3s all;
-  position: absolute;
-  display: block;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transform: translateY(30px);
-          transform: translateY(30px);
-  -webkit-transition: visibility 0.2s, opacity 0.2s, -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
-  transition: visibility 0.2s, opacity 0.2s, -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
-  transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
-  transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99), -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
-}
-
-.main-nav .dropdown-slide .dropdown-menu .dropdown-item {
-  font-size: 15px;
-  padding: 10px 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-
-.main-nav .dropdown-slide .dropdown-menu .dropdown-item:not(:last-child) {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.main-nav .dropdown-slide .dropdown-menu .dropdown-item:hover {
-  background: #fff;
-  color: #ff6600;
-}
-
-@media (max-width: 991px) {
-  .main-nav .dropdown-slide .dropdown-menu {
-    -webkit-transform: none;
-            transform: none;
-    left: auto;
-    position: relative;
-    text-align: center;
-    opacity: 1;
-    visibility: visible;
-  }
-}
 
 .main-nav .ticket {
   background: #ff6600;
@@ -685,7 +583,7 @@ select.form-control:not([size]):not([multiple]) {
 .navbar-toggler:focus, .navbar-toggler:hover {
   outline: none;
 }
-
+/* Page title */
 .page-title {
   position: relative;
   padding: 165px 0 65px;
@@ -2339,141 +2237,6 @@ select.form-control:not([size]):not([multiple]) {
   background: #ff6600;
 }
 
-.single-speaker .block {
-  padding-bottom: 70px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.single-speaker .block .image-block {
-  background: #fff;
-  border: 1px solid #e5e5e5;
-  padding: 6px;
-}
-
-.single-speaker .block .image-block img {
-  width: 100%;
-}
-
-@media (max-width: 767px) {
-  .single-speaker .block .image-block {
-    margin-bottom: 30px;
-  }
-}
-
-.single-speaker .block .content-block .name h3 {
-  font-weight: 400;
-}
-
-.single-speaker .block .content-block .profession {
-  margin-bottom: 20px;
-}
-
-.single-speaker .block .content-block .profession p {
-  color: #ff6600;
-  font-size: 0.9375rem;
-}
-
-.single-speaker .block .content-block .details {
-  margin-bottom: 35px;
-}
-
-.single-speaker .block .content-block .details p {
-  font-size: 0.9375rem;
-}
-
-.single-speaker .block .content-block .details p:not(:last-child) {
-  margin-bottom: 35px;
-}
-
-.single-speaker .block .content-block .social-profiles h5 {
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-.single-speaker .block .content-block .social-profiles ul.social-list li a {
-  display: block;
-  height: 40px;
-  width: 40px;
-  background: #fff;
-  border: 1px solid #e5e5e5;
-  text-align: center;
-}
-
-.single-speaker .block .content-block .social-profiles ul.social-list li a i {
-  line-height: 40px;
-}
-
-.single-speaker .block .content-block .social-profiles ul.social-list li a:hover {
-  background: #ff6600;
-  border: 1px solid #ff6600;
-  color: #fff;
-}
-
-.single-speaker .block-2 {
-  padding-top: 70px;
-  padding-bottom: 10px;
-}
-
-.single-speaker .block-2 h3, .single-speaker .block-2 p, .single-speaker .block-2 li {
-  font-size: 0.9375rem;
-}
-
-.single-speaker .block-2 .personal-info h5, .single-speaker .block-2 .skills h5 {
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
-.single-speaker .block-2 .personal-info p, .single-speaker .block-2 .skills p {
-  margin-bottom: 15px;
-}
-
-@media (max-width: 767px) {
-  .single-speaker .block-2 .personal-info {
-    margin-bottom: 30px;
-  }
-}
-
-.single-speaker .block-2 .personal-info ul li {
-  position: relative;
-  list-style: none;
-  margin-left: 25px;
-}
-
-.single-speaker .block-2 .personal-info ul li:not(:last-child) {
-  margin-bottom: 5px;
-}
-
-.single-speaker .block-2 .personal-info ul li:before {
-  position: absolute;
-  left: -25px;
-  content: "\f10c";
-  font-family: FontAwesome;
-  color: #ff6600;
-}
-
-.single-speaker .block-2 .skills .skill-bar {
-  margin-bottom: 20px;
-}
-
-.single-speaker .block-2 .skills .skill-bar p {
-  margin-bottom: 5px;
-}
-
-.single-speaker .block-2 .skills .skill-bar .progress {
-  border-radius: 0;
-  overflow: visible;
-}
-
-.single-speaker .block-2 .skills .skill-bar .progress .progress-bar {
-  background-color: #ff6600;
-}
-
-.single-speaker .block-2 .skills .skill-bar .progress .progress-bar span {
-  font-family: "Montserrat", sans-serif;
-  float: right;
-  margin-top: -20px;
-  color: #222222;
-}
 
 .speakers-full-width {
   overflow: hidden;
