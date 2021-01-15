@@ -3589,26 +3589,6 @@ ul.pagination .active a {
   color: #ff6600;
 }
 
-.error .block {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.error .block img {
-  margin-bottom: 45px;
-}
-
-.error .block h3 {
-  font-weight: 400;
-  color: #ff6600;
-  margin-bottom: 40px;
-}
-
-.error .block h3 span {
-  font-style: italic;
-  color: #222222;
-}
-
 
 .contact-form .form-control {
   margin-bottom: 30px;
